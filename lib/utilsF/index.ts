@@ -26,6 +26,7 @@ export function getModel(useSubModel = false) {
   const groqApiKey = process.env.GROQ_API_KEY
   const groqApiModel = process.env.GROQ_API_MODEL
 
+  
   if (
     !(ollamaBaseUrl && ollamaModel) &&
     !openaiApiKey &&
