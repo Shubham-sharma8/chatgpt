@@ -14,12 +14,12 @@ const fontSans = FontSans({
   variable: '--font-sans'
 })
 
-const title = 'Cogify '
+const title = 'Try Cogify '
 const description =
-  'A fully open-source AI-powered answer engine with a generative UI.'
+  'Best and the most advanced AI models to help you with your daily tasks.'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://morphic.sh'),
+  metadataBase: new URL('https://try.cogify.social'),
   title,
   description,
   openGraph: {
